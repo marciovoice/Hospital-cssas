@@ -1,0 +1,6 @@
+{
+  "name": "Chandra Shekhar Singh Ayurved Sansthan",
+  "description": "A premium cinematic scroll-driven hero section presenting the sacred ancient wisdom of Charak Samhita.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

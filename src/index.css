@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Cinzel', Georgia, serif;
+    --font-sanskrit: 'Noto Serif Devanagari', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #070504;
+    color: #ede4d8;
+    overflow-x: hidden;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sanskrit {
+  font-family: 'Noto Serif Devanagari', Georgia, serif;
+}
+
+/* Custom golden radial gradients & glow */
+.bg-vignette {
+  background: radial-gradient(circle at center, rgba(14, 10, 7, 0.2) 0%, rgba(7, 5, 4, 0.85) 75%, rgba(4, 3, 2, 0.98) 100%);
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(212, 175, 55, 0.4), 0 0 40px rgba(212, 175, 55, 0.2);
+}
+
+.border-gold-subtle {
+  border-color: rgba(212, 175, 55, 0.25);
+}
+
+/* Hide scrollbar for clean immersion if needed */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090706;
+}
+::-webkit-scrollbar-thumb {
+  background: #2b221a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4a3a2d;
+}
